@@ -1328,7 +1328,25 @@ section,
 }
 
 .page-title-hero {
-  background: url("../img/about-1.jpg") center/cover no-repeat;
+  background: url("../img/ABOUT.png") center/cover no-repeat;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+}
+.vision-hero{
+   background: url("../img/Mission\ and\ Vision.png") center/cover no-repeat;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+}
+.core-values-hero{
+   background: url("../img/core&values.png") center/cover no-repeat;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+}
+.compliance-hero{
+   background: url("../img/Companline.png") center/cover no-repeat;
   min-height: 280px;
   display: flex;
   align-items: center;
