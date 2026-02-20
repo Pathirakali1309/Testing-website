@@ -1334,13 +1334,13 @@ section,
   align-items: center;
 }
 .vision-hero{
-   background: url("../img/Mission\ and\ Vision.png") center/cover no-repeat;
+   background: url("../img/mission-vision.png") center/cover no-repeat;
   min-height: 280px;
   display: flex;
   align-items: center;
 }
 .core-values-hero{
-   background: url("../img/core&values.png") center/cover no-repeat;
+   background: url("../img/core-values-main.png") center/cover no-repeat;
   min-height: 280px;
   display: flex;
   align-items: center;
@@ -1350,6 +1350,15 @@ section,
   min-height: 280px;
   display: flex;
   align-items: center;
+}
+.careers-hero{
+     background: url("../img/Careers\ _\ Uniqueforce.png") center/cover no-repeat;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+}
+.main{
+  margin-top: 110px;
 }
 
 .page-title-hero::before {
@@ -5707,9 +5716,14 @@ section,
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  aspect-ratio: 4 / 3;
 }
 
 .gallery .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
   transition: 0.3s;
 }
 
